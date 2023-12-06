@@ -117,7 +117,7 @@ class BuyNowPage extends StatelessWidget {
 
               ],
             ),
-            SizedBox(height: 29),
+            SizedBox(height: 30),
             Text('Select Payment Type:',style: TextStyle(color: Colors.blueAccent[800],fontWeight: FontWeight.w900)),
             DropdownButton<String>(
               items: ['Bkash', 'Rocket', 'Nagad']
