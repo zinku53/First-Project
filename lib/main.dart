@@ -130,7 +130,7 @@ class BuyNowPage extends StatelessWidget {
                 // Handle dropdown value change
               },
             ),
-            SizedBox(height:70),
+            SizedBox(height:69),
             ElevatedButton(
               onPressed: () {
                 Navigator.pop(context);
